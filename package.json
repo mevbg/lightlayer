@@ -16,6 +16,14 @@
     "type": "git",
     "url": "git://github.com/martinmethod/lightlayer.git"
   },
+  "files": [
+    "dist/js/jquery.lightlayer.js",
+    "dist/js/jquery.lightlayer.min.js",
+    "dist/js/jquery.lightlayer.min.js.map",
+    "dist/css/lightlayer.css",
+    "dist/css/lightlayer.min.css",
+    "dist/css/lightlayer.min.css.map"
+  ],
   "bugs": "https://github.com/martinmethod/lightlayer/issues",
   "devDependencies": {
     "bower": "^1.4.1",
