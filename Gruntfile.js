@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 /* CONFIGURATION */
     grunt.initConfig({
         // Metadata
-        pkg: grunt.file.readJSON('lightlayer.jquery.json'),
+        pkg: grunt.file.readJSON('package.json'),
 
 
         // Code convention
