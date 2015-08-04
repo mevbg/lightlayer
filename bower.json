@@ -3,6 +3,8 @@
   "title": "jQuery LightLayer Plugin",
   "description": "A simple responsive lightbox & dialog script",
   "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
     "lightlayer",
     "lightbox",
     "modal",

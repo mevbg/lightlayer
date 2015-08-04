@@ -32,6 +32,8 @@
     "grunt": "~0.4.5"
   },
   "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
     "lightlayer",
     "lightbox",
     "modal",
