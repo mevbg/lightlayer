@@ -9,7 +9,7 @@
     "dialog",
     "popup",
     "responsive",
-    "plugin,",
+    "plugin",
     "jQuery"
   ],
   "version": "2.0.0",
