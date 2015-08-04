@@ -10,13 +10,19 @@ jQuery LightLayer Plugin is a responsive lightbox & dialog script that fits well
 
 You can [download the plugin as an archive][zip].
 
-Or you can grab it by using Bower:
+[zip]: https://github.com/martinmethod/lightlayer/zipball/master
+
+Or you can grab it by using **npm**:
+
+```javascript
+npm install lightlayer
+```
+
+Or you can grab it by using **Bower**:
 
 ```javascript
 bower install lightlayer
 ```
-
-[zip]: https://github.com/martinmethod/lightlayer/zipball/master
 
 ## Installation
 
