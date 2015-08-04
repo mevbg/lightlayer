@@ -58,7 +58,6 @@
     ".jshintrc",
     "Gruntfile.js",
     "index.html",
-    "package.json",
-    "lightlayer.jquery.json"
+    "package.json"
   ]
 }
