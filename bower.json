@@ -1,0 +1,64 @@
+{
+  "name": "lightlayer",
+  "title": "jQuery LightLayer Plugin",
+  "description": "A simple responsive lightbox & dialog script",
+  "keywords": [
+    "lightlayer",
+    "lightbox",
+    "modal",
+    "dialog",
+    "popup",
+    "responsive",
+    "plugin,",
+    "jQuery"
+  ],
+  "version": "0.1.0",
+  "homepage": "http://lightlayer.martinmetodiev.com",
+  "author": {
+    "name": "Martin Metodiev",
+    "email": "metodiev.martin@gmail.com",
+    "url": "http://martinmetodiev.com"
+  },
+  "maintainers": {
+    "name": "Martin Metodiev",
+    "email": "metodiev.martin@gmail.com",
+    "url": "http://martinmetodiev.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinmethod/lightlayer.git"
+  },
+  "bugs": "https://github.com/martinmethod/lightlayer/issues",
+  "licenses": [
+    "MIT"
+  ],
+  "dependencies": {
+    "jquery": "git://github.com/jquery/jquery.git"
+  },
+  "devDependencies": {
+    "normalize-css": "git://github.com/necolas/normalize.css.git",
+    "css_browser_selector": "git://github.com/verbatim/css_browser_selector.git",
+    "jquery": "git://github.com/jquery/jquery.git",
+    "showdown": "git://github.com/showdownjs/showdown.git",
+    "prism": "git://github.com/LeaVerou/prism.git"
+  },
+  "main": [
+    "dist/js/jquery.lightlayer.js",
+    "dist/js/jquery.lightlayer.min.js",
+    "dist/js/jquery.lightlayer.min.js.map",
+    "dist/css/lightlayer.css",
+    "dist/css/lightlayer.min.css",
+    "dist/css/lightlayer.min.css.map"
+  ],
+  "ignore": [
+    "**/.*",
+    "page",
+    ".bowerrc",
+    ".csslintrc",
+    ".jshintrc",
+    "Gruntfile.js",
+    "index.html",
+    "package.json",
+    "lightlayer.jquery.json"
+  ]
+}
