@@ -12,19 +12,6 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/martinmethod/lightlayer.git"
-  },
-  "files": [
-    "dist/js/jquery.lightlayer.js",
-    "dist/js/jquery.lightlayer.min.js",
-    "dist/js/jquery.lightlayer.min.js.map",
-    "dist/css/lightlayer.css",
-    "dist/css/lightlayer.min.css",
-    "dist/css/lightlayer.min.css.map"
-  ],
-  "bugs": "https://github.com/martinmethod/lightlayer/issues",
   "devDependencies": {
     "bower": "^1.4.1",
     "grunt-contrib-clean": "~0.6.0",
@@ -50,5 +37,21 @@
     "responsive",
     "plugin",
     "jQuery"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/martinmethod/lightlayer.git"
+  },
+  "license": "MIT",
+  "main": "dist/js/jquery.lightlayer.min.js",
+  "demo": "http://lightlayer.martinmetodiev.com",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/martinmethod/lightlayer/issues"
+  },
+  "maintainers": [{
+    "name": "Martin Metodiev",
+    "email": "metodiev.martin@gmail.com"
+  }],
+  "directories": {}
 }
