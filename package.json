@@ -51,7 +51,8 @@
   },
   "maintainers": [{
     "name": "Martin Metodiev",
-    "email": "metodiev.martin@gmail.com"
+    "email": "metodiev.martin@gmail.com",
+    "url": "http://martinmetodiev.com"
   }],
   "directories": {}
 }
