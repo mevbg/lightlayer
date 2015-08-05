@@ -2,16 +2,42 @@
   "name": "lightlayer",
   "title": "jQuery LightLayer Plugin",
   "description": "A simple responsive lightbox & dialog script",
+  "keywords": [
+    "lightlayer",
+    "lightbox",
+    "modal",
+    "dialog",
+    "popup",
+    "responsive",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "plugin",
+    "jQuery"
+  ],
   "version": "2.0.2",
   "homepage": "http://lightlayer.martinmetodiev.com",
+  "demo": "http://lightlayer.martinmetodiev.com",
   "author": {
     "name": "Martin Metodiev",
     "email": "metodiev.martin@gmail.com",
     "url": "http://martinmetodiev.com"
   },
-  "engines": {
-    "node": ">= 0.8.0"
+  "maintainers": [
+    {
+      "name": "Martin Metodiev",
+      "email": "metodiev.martin@gmail.com",
+      "url": "http://martinmetodiev.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinmethod/lightlayer.git"
   },
+  "bugs": {
+    "url": "https://github.com/martinmethod/lightlayer/issues"
+  },
+  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "bower": "^1.4.1",
     "grunt-contrib-clean": "~0.6.0",
@@ -26,33 +52,9 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt": "~0.4.5"
   },
-  "keywords": [
-    "jquery-plugin",
-    "ecosystem:jquery",
-    "lightlayer",
-    "lightbox",
-    "modal",
-    "dialog",
-    "popup",
-    "responsive",
-    "plugin",
-    "jQuery"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/martinmethod/lightlayer.git"
-  },
-  "license": "MIT",
   "main": "dist/js/jquery.lightlayer.min.js",
-  "demo": "http://lightlayer.martinmetodiev.com",
-  "dependencies": {},
-  "bugs": {
-    "url": "https://github.com/martinmethod/lightlayer/issues"
-  },
-  "maintainers": [{
-    "name": "Martin Metodiev",
-    "email": "metodiev.martin@gmail.com",
-    "url": "http://martinmetodiev.com"
-  }],
-  "directories": {}
+  "directories": {},
+  "engines": {
+    "node": ">= 0.8.0"
+  }
 }
