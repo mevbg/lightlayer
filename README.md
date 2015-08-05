@@ -6,6 +6,10 @@ A simple responsive lightbox & dialog script.
 
 jQuery LightLayer Plugin is a responsive lightbox & dialog script that fits well with any project on any screen. It provides great experience for users and it’s really quite simple to use. jQuery LightLayer Plugin gives control over many settings. Things like background color, background opacity, box position, open/close transitions and different abilities for closing are part of the options that users can manipulate by themselves. And no matter the content jQuery LightLayer Plugin will always have a proper behavior. It works fine with external websites, video players, maps. And if there is a long content jQuery LightLayer Plugin will use the native scrollbar without scrolling the page behind.
 
+## Demo
+
+<a href="http://lightlayer.martinmetodiev.com" target="_blank">lightlayer.martinmetodiev.com</a>
+
 ## Getting Started
 
 You can [download the plugin as an archive][zip].
