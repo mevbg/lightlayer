@@ -31,13 +31,6 @@
   "dependencies": {
     "jquery": "git://github.com/jquery/jquery.git"
   },
-  "devDependencies": {
-    "normalize-css": "git://github.com/necolas/normalize.css.git",
-    "css_browser_selector": "git://github.com/verbatim/css_browser_selector.git",
-    "jquery": "git://github.com/jquery/jquery.git",
-    "showdown": "git://github.com/showdownjs/showdown.git",
-    "prism": "git://github.com/LeaVerou/prism.git"
-  },
   "main": [
     "dist/js/jquery.lightlayer.js",
     "dist/js/jquery.lightlayer.min.js",
@@ -48,7 +41,7 @@
   ],
   "ignore": [
     "**/.*",
-    "page",
+    "demo_components",
     ".bowerrc",
     ".csslintrc",
     ".jshintrc",
