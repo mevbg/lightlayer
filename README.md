@@ -1,4 +1,4 @@
-# jQuery LightLayer Plugin v2.0.5
+# jQuery LightLayer Plugin v2.0.6
 
 A simple responsive lightbox & dialog script.
 

@@ -1,5 +1,5 @@
 /*!
-  jQuery LightLayer Plugin v2.0.5
+  jQuery LightLayer Plugin v2.0.6
   http://lightlayer.martinmetodiev.com
 
   Copyright (c) 2015 Martin Metodiev
@@ -319,6 +319,14 @@ $.lightlayer = function(params) {
                     }
 
                     ll.layer.css({'opacity': 0});
+
+                    $('body').removeClass('opened-lightlayer');
+
+                    if (ll.get.scrollbarWidth() > 0) {
+                        setTimeout(function() {
+                            $('body').removeClass('overflowed-lightlayer');
+                        }, 200);
+                    }
                 }
             },
 
@@ -367,7 +375,7 @@ $.lightlayer = function(params) {
             init: {
                 layer: function() {
                     // Appending the layer to the DOM
-                    $('body').addClass('opened-lightlayer').append(
+                    $('body').append(
                         $('<div>', {'id': 'lightlayer', 'tabindex': '1', 'class': 'lightlayer'})
                             .css({'display': 'table'}).append(
                                 $('<div>', {'class': 'lightlayer-cell'}).append(
@@ -548,6 +556,31 @@ $.lightlayer = function(params) {
                         loc.parent = $(obj).parent()[0];
                     }
                     return(loc);
+                },
+
+                scrollbarWidth: function() {
+                    var outer = document.createElement('div');
+                    outer.style.visibility = 'hidden';
+                    outer.style.width = '100px';
+                    outer.style.msOverflowStyle = 'scrollbar'; // needed for WinJS apps
+
+                    document.body.appendChild(outer);
+
+                    var widthNoScroll = outer.offsetWidth;
+                    // force scrollbars
+                    outer.style.overflow = 'scroll';
+
+                    // add innerdiv
+                    var inner = document.createElement('div');
+                    inner.style.width = '100%';
+                    outer.appendChild(inner);        
+
+                    var widthWithScroll = inner.offsetWidth;
+
+                    // remove divs
+                    outer.parentNode.removeChild(outer);
+
+                    return widthNoScroll - widthWithScroll;
                 }
             },
 
@@ -570,11 +603,19 @@ $.lightlayer = function(params) {
                 },
 
                 layer: function() {
+                    console.log(ll.get.scrollbarWidth());
+
+                    if (ll.get.scrollbarWidth() > 0) {
+                        $('body').addClass('overflowed-lightlayer');
+                    }
+
                     // used setTimeout so the CSS3 transition to be attached properly
                     setTimeout(function() {
                         ll.layer
                             .css({'opacity': 1})
                             .focus();
+
+                        $('body').addClass('opened-lightlayer');
                     }, 0);
 
                     return this;
