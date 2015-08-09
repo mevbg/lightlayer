@@ -1,5 +1,5 @@
 /*!
-  jQuery LightLayer Plugin v2.0.6
+  jQuery LightLayer Plugin v2.0.7
   http://lightlayer.martinmetodiev.com
 
   Copyright (c) 2015 Martin Metodiev
@@ -603,8 +603,6 @@ $.lightlayer = function(params) {
                 },
 
                 layer: function() {
-                    console.log(ll.get.scrollbarWidth());
-
                     if (ll.get.scrollbarWidth() > 0) {
                         $('body').addClass('overflowed-lightlayer');
                     }
