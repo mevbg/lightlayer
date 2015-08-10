@@ -21,7 +21,7 @@
 
         .input-background-color,
         .input-opacity,
-        .input-transition { width: 64px; }
+        .input-transition { width: 70px; }
 
         .submit { margin-left: 140px; }
 
@@ -37,18 +37,24 @@
     .tip {
         font-style: italic;
         line-height: normal;
+        
+        &.space { padding-top: 3px; }
     }
-
-    .tip.space { padding-top: 3px; }
 
     .group { margin-bottom: 15px; }
 
-    .term { padding-left: 140px; }
+    .term {
+        padding-left: 140px;
+        white-space: nowrap;
+        
+        &.space { padding-top: 4px; }
+    }
 
     .definition {
         display: block;
-        float: left;
         width: 130px;
+        float: left;
+        line-height: 32px;
     }
 
     .change { float: right; }
@@ -97,7 +103,7 @@
         list-style: none;
     }
 
-    .textfield { width: 100px; }
+    .textfield { width: 70px; }
 
     &.popup_options {
         max-width: 500px;
