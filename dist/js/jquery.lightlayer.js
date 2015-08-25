@@ -7,7 +7,7 @@
 */
 
 
-(function($) {
+;(function($) {
 
 // Wrapping the content
 $(function() {$('body').wrapInner('<div class="lightlayer-general">');});
