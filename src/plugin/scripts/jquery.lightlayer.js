@@ -1,11 +1,3 @@
-/*! 
- jQuery LightLayer Plugin v2.1.0
- http://lightlayer.martinmetodiev.com
-
- Copyright (c) 2017 Martin Metodiev
- Licensed under the MIT license.
-*/
-
 ;(function($) {
 
   'use strict';

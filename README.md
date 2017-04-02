@@ -1,6 +1,8 @@
-# jQuery LightLayer Plugin v2.0.8
+# jQuery LightLayer Plugin
 
 A simple responsive lightbox & dialog script.
+
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/) [![Travis](https://img.shields.io/travis/martinmethod/lightlayer.svg)](https://travis-ci.org/martinmethod/lightlayer) [![David](https://img.shields.io/david/dev/martinmethod/lightlayer.svg)](https://david-dm.org/martinmethod/lightlayer?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/lightlayer.svg)](https://github.com/martinmethod/lightlayer/releases/latest)
 
 ## Description
 
@@ -14,7 +16,7 @@ jQuery LightLayer Plugin is a responsive lightbox & dialog script that fits well
 
 You can [download the plugin as an archive][zip].
 
-[zip]: https://github.com/martinmethod/lightlayer/zipball/master
+[zip]: https://github.com/martinmethod/lightlayer/zipball/prod
 
 Or you can grab it by using **npm**:
 
@@ -86,24 +88,24 @@ There are several properties for setting some features when initializing the Lig
 
 Determines the background color of the layer behind the opened popup.
 
-Type: **string**  
-Default value: **'#000000'**  
+Type: **string**
+Default value: **'#000000'**
 Acceptable values: **only HEX colors, no matter with or without the # prefix**
 
 #### opacity
 
 Determines the opacity of the layer behind the opened popup.
 
-Type: **number**  
-Default value: **0.3**  
+Type: **number**
+Default value: **0.3**
 Acceptable values: **any number between 0 & 1 (incl.)**
 
 #### transition
 
 Determines the fade in/out transition speed (in seconds) of opening/closing the LightLayer. If set to 0, it will show & hide instantly.
 
-Type: **number**  
-Default value: **0.1**  
+Type: **number**
+Default value: **0.1**
 
 #### position
 
@@ -111,8 +113,8 @@ Determines the vertical position of the popup. 'Third' option will keep the popu
 
 *The popups are always horizontally centered.*
 
-Type: **string**  
-Default value: **'middle'**  
+Type: **string**
+Default value: **'middle'**
 Acceptable values: **'top', 'third', 'middle'**
 
 #### escape
@@ -121,15 +123,15 @@ Determines if the popup should have the ability to be closed in a regular way or
 
 *If set to true, the user will be able to close the popup by clicking/tapping the X-button in the upper right corner and also outside of the popup, or by pressing Escape button from the keyboard (if on desktop).*
 
-Type: **boolean**  
-Default value: **true**  
+Type: **boolean**
+Default value: **true**
 
 #### cache
 
 Determines if the selected popup should be cached for further calls of the same target or not.
 
-Type: **boolean**  
-Default value: **true**  
+Type: **boolean**
+Default value: **true**
 
 ### III. Methods
 
@@ -305,6 +307,6 @@ $.lightlayer({
 
 ## License
 
-Copyright © 2015 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
+Copyright © 2017 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
 
-[licence]: https://raw.github.com/martinmethod/lightlayer/master/LICENSE-MIT
+[licence]: https://raw.github.com/martinmethod/lightlayer/prod/LICENSE-MIT

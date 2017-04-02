@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- node
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: 7eff3d64f9a7
+  - COMMIT_AUTHOR_EMAIL: metodiev.martin@gmail.com
+branches:
+  only:
+  - "/v\\d+\\.\\d+\\.\\d+/"
+deploy:
+  provider: npm
+  email: metodiev.martin@gmail.com
+  api_key: # …bfc3f83a
+    secure: FfqRKDPevN4+0bJcnb95QP1/GEvuIjEvYNrFZgpY/KBJn4h20JHuz2j24YDJuUKao2miX0jqebwWv+ubetNgCIMw/FaLubfdq8P7MPPWJ8wXkJAKgBPWK/htDDz/c8bXuFKEOPfDKIkuOzMUuBexOxQ2Isai2K1r1o06R+rjMFs+F0AsnZ1NgBGabbGyv+LU+9HN+ibgwuwa2lJgVvYYPOKsDk9qCS0rRKvk9Nrmx6+pICGYB18qOTihZFqePPRXSjqCvG3i7UJcpQ2EwKnZ601et4I2ZFa9LKp3O/mVsIAmhuiLTVxhfSicaGX0NTKiAc5euiCn5fEbu9vS5ADir14Q3Mtr0b8xzeo8cDZVC3aChuFOyP61e5S7BAVYTrGSoCjUnmZGEYKcfQxlLiZeeaccrykclevPtDvhhgeLA1+5EYbA1AuQu3vLOwiWT9q+dogZ2eZFVRyCa+QYk+cuU4fOm9o9u7c2WFJn7uJe2VwEJE/9+gvzin1maoRRHsBqghEmV1XwQuhlcsKvJmUvnFtxx39ty8ixmoSf4M5Zz9WZDmpdoxA20tzZGm6pDisbYXR++w4GN2Si6yi96JoAZ9IqBw6apFXBRER4r5vqVHvvgX2lYVkqMq5Ik/9iLkaT1yyOK0TCYEsBDV5+JZBbTXiclIhHCoscD8lZf1hlBNM=
+  on:
+    tags: true
+    all_branches: true

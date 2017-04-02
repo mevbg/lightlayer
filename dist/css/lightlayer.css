@@ -1,105 +1,123 @@
-/*!
-  jQuery LightLayer Plugin v2.0.8
-  http://lightlayer.martinmetodiev.com
+/*! 
+ jQuery LightLayer Plugin v2.1.0
+ http://lightlayer.martinmetodiev.com
 
-  Copyright (c) 2015 Martin Metodiev
-  Licensed under the MIT license.
+ Copyright (c) 2017 Martin Metodiev
+ Licensed under the MIT license.
 */
+
+@charset "UTF-8";
 .lightlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10000;
   display: none;
   width: 100%;
   height: 100%;
-  position: absolute;
-  z-index: 10000;
-  left: 0;
-  top: 0;
-  table-layout: absolute;
   opacity: 0;
+  table-layout: absolute;
 }
+
 .lightlayer-cell {
-  width: 100%;
   display: table-cell;
+  width: 100%;
   text-align: center;
 }
+
 .lightlayer-holder {
-  width: 96%;
   display: inline-block;
+  width: 96%;
   margin: 2%;
 }
+
 .lightlayer-popup {
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  -ms-border-radius: 6px 6px 0 0;
+  -o-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+  position: relative;
   display: none;
   width: 100%;
   max-width: 66%;
   min-width: 280px;
   min-height: 200px;
-  position: relative;
-  box-shadow: 1px 2px 2px #999;
-  background-color: #FFF;
-  opacity: 0;
   overflow: hidden;
   text-align: left;
-  -webkit-border-radius: 6px 6px 0 0;
-  -moz-border-radius: 6px 6px 0 0;
-  border-radius: 6px 6px 0 0;
+  background-color: #fff;
+  opacity: 0;
+  box-shadow: 1px 2px 2px #999;
 }
+
 .lightlayer-popup .x-button {
+  position: absolute;
+  top: 0;
+  right: 0;
   display: block;
   width: 32px;
   height: 32px;
-  position: absolute;
-  right: 0;
-  top: 0;
   text-decoration: none !important;
 }
-.lightlayer-popup .x-button:before {
+
+.lightlayer-popup .x-button::before {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
-  content: '✖';
-  color: #369;
   width: 100%;
   height: 100%;
   font: normal 20px/32px 'Arial';
+  color: #369;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: 0;
+  content: '✖';
 }
-.lightlayer-popup .x-button:hover:before {
+
+.lightlayer-popup .x-button:hover::before {
   color: #390;
 }
-.lightlayer-popup .x-button:active:before {
-  color: #C00;
+
+.lightlayer-popup .x-button:active::before {
+  color: #c00;
 }
+
 .lightlayer-popup .head {
   min-height: 32px;
-  line-height: 1.5;
   padding: 4px 32px;
-  text-align: center;
-  background: #FFC;
-  color: #333;
-  cursor: default;
   font-weight: bold;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  cursor: default;
+  background: #ffc;
 }
+
 .lightlayer-popup .body {
   padding: 3%;
 }
+
 .lightlayer-popup .body .title {
   display: block;
   margin-bottom: 25px;
 }
+
 .lightlayer-popup .body iframe {
   display: block;
-  margin: 0 auto;
   width: 100% !important;
+  margin: 0 auto;
 }
+
 .lightlayer-popup .foot {
   padding: 10px 3%;
   text-align: center;
 }
+
 .opened-lightlayer {
   min-height: 0 !important;
 }
+
 .overflowed-lightlayer {
   overflow-y: scroll !important;
 }

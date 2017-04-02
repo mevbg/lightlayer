@@ -11,10 +11,10 @@
     "responsive",
     "jquery-plugin",
     "ecosystem:jquery",
-    "plugin",
-    "jQuery"
+    "jQuery",
+    "plugin"
   ],
-  "version": "2.0.8",
+  "version": "2.1.0",
   "homepage": "http://lightlayer.martinmetodiev.com",
   "authors": [
     {
@@ -40,13 +40,8 @@
     "dist/css/lightlayer.min.css.map"
   ],
   "ignore": [
-    "**/.*",
-    "demo_components",
-    ".bowerrc",
-    ".csslintrc",
-    ".jshintrc",
-    "Gruntfile.js",
-    "index.html",
-    "package.json"
+    ".travis.yml",
+    "deploy_key.enc",
+    "deploy.sh"
   ]
 }

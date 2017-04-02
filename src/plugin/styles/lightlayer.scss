@@ -1,0 +1,159 @@
+// =========================| Demo styles |========================= //
+
+
+
+//--------------------------| Compass
+
+@import '../../../node_modules/compass-mixins/lib/compass';
+
+
+//--------------------------| Variables
+
+$col-white: #fff;
+$col-gray-light: #999;
+$col-gray-dark: #333;
+
+$col-blue: #369;
+$col-green: #390;
+$col-red: #c00;
+
+$col-yellow: #ffc;
+
+
+
+//====================> 1. Base
+
+//------------------> 1.1. Parent
+
+.lightlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  display: none;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  table-layout: absolute;
+}
+
+
+//------------------> 1.2. Cell
+
+.lightlayer-cell {
+  display: table-cell;
+  width: 100%;
+  text-align: center;
+}
+
+
+//------------------> 1.3. Holder
+
+.lightlayer-holder {
+  display: inline-block;
+  width: 96%;
+  margin: 2%;
+}
+
+
+//------------------> 1.4. Popup
+
+.lightlayer-popup {
+  @include border-radius(6px 6px 0 0);
+
+  position: relative;
+  display: none;
+  width: 100%;
+  max-width: 66%;
+  min-width: 280px;
+  min-height: 200px;
+  overflow: hidden;
+  text-align: left;
+  background-color: $col-white;
+  opacity: 0;
+  box-shadow: 1px 2px 2px $col-gray-light;
+
+  .x-button {
+    $size: 32px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: $size;
+    height: $size;
+    text-decoration: none !important;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      font: normal 20px/32px 'Arial';
+      color: $col-blue;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      content: '✖';
+    }
+
+    &:hover::before  {
+      color: $col-green;
+    }
+
+    &:active::before {
+      color: $col-red;
+    }
+  }
+
+  .head {
+    min-height: 32px;
+    padding: 4px 32px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: $col-gray-dark;
+    text-align: center;
+    cursor: default;
+    background: $col-yellow;
+  }
+
+  .body {
+    padding: 3%;
+
+    .title {
+      display: block;
+      margin-bottom: 25px;
+    }
+
+    iframe {
+      display: block;
+      width: 100% !important;
+      margin: 0 auto;
+    }
+  }
+
+  .foot {
+    padding: 10px 3%;
+    text-align: center;
+  }
+
+}
+
+
+
+//====================> 2. Features
+
+//------------------> 2.1. Opened
+
+.opened-lightlayer {
+  min-height: 0 !important;
+}
+
+
+//------------------> 2.2. Overflowed
+
+.overflowed-lightlayer {
+  overflow-y: scroll !important;
+}
