@@ -1,0 +1,255 @@
+// =========================| Demo styles |========================= //
+
+
+
+//--------------------------| Compass
+
+@import '../../../node_modules/compass-mixins/lib/compass';
+
+
+//--------------------------| Variables
+
+$col-red:    #c00;
+
+
+
+//====================> 1. Base
+
+.demo-holder {
+
+  .content {
+
+    .input-background-color {
+      text-transform: uppercase;
+    }
+
+    .input-background-color,
+    .input-opacity,
+    .input-transition {
+      width: 70px;
+    }
+
+    .submit {
+      margin-left: 140px;
+    }
+
+  }
+}
+
+.form {
+  ul li:not(:last-of-type) {
+    margin-bottom: 20px !important;
+  }
+
+  .error .definition,
+  .error .textfield {
+    color: $col-red !important;
+  }
+
+  .tip {
+    font-style: italic;
+    line-height: normal;
+
+    &.space {
+      padding-top: 3px;
+      padding-left: 5px;
+    }
+  }
+
+  .group {
+    margin-bottom: 15px;
+  }
+
+  .term {
+    padding-left: 140px;
+    white-space: nowrap;
+
+    &.space {
+      padding-top: 4px;
+    }
+  }
+
+  .definition {
+    display: block;
+    float: left;
+    width: 130px;
+    line-height: 32px;
+  }
+
+  .change {
+    float: right;
+  }
+
+  .radio-button {
+    display: block;
+    padding-bottom: 3px;
+  }
+
+  .radio-button input,
+  label,
+  .btn {
+    cursor: pointer;
+  }
+
+  input {
+    margin: 0;
+  }
+
+  .radio-button label {
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+
+  .submit {
+    padding: 10px 0;
+  }
+
+  .background-color {
+    .term {
+      margin-left: -8px;
+    }
+  }
+}
+
+.non-mobile {
+  .content {
+    display: none;
+  }
+
+  &::after {
+    content: 'This plugin is not available for mobile devices.';
+  }
+}
+
+.lightlayer {
+  font: inherit;
+}
+
+.popup {
+  display: none;
+  max-width: 640px;
+  font-size: 16px;
+
+  ol,
+  ul,
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .textfield {
+    width: 70px;
+  }
+
+  &[class*='popup_options'] {
+    max-width: 500px;
+    text-align: center;
+
+    .form {
+      max-width: 426px;
+      margin: 0 auto;
+      text-align: left;
+    }
+  }
+
+  &[class*='popup_cache'],
+  &[class*='popup_data_transfer'] {
+    max-width: 320px;
+  }
+
+  &[class*='popup_content'] {
+    max-width: 800px;
+  }
+
+  &[class*='popup_cache'] {
+    .row {
+      margin-top: 20px;
+
+      label {
+        display: inline-block;
+        width: 76px;
+        margin: 0 10px;
+      }
+
+      input {
+        width: 160px;
+      }
+    }
+  }
+
+  .frame {
+    position: relative;
+    width: 100%;
+    padding-top: 75%;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 999px) {
+
+  .popup {
+    font-size: 14px;
+
+    &[class*='popup_options'] {
+      max-width: 400px;
+
+      .form {
+        max-width: 392px;
+      }
+    }
+  }
+
+  .form .background-color {
+    .term {
+      margin-left: -7px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 599px) {
+
+  .popup {
+    font-size: 13px;
+
+    &[class*='popup_options'] {
+      max-width: 300px;
+
+      .form {
+        max-width: 242px;
+
+        ul li:not(:last-of-type) {
+          margin-bottom: 12px !important;
+        }
+      }
+    }
+  }
+
+  .form {
+    .definition {
+      float: none;
+    }
+
+    .term {
+      padding-right: 0;
+      padding-left:  0;
+    }
+
+    .background-color {
+      .term {
+        margin-left: -6px;
+      }
+    }
+  }
+
+  .demo-holder .content .submit {
+    margin: 0;
+  }
+
+}
