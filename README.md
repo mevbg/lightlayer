@@ -2,7 +2,7 @@
 
 A simple responsive lightbox & dialog script.
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/) [![Travis](https://img.shields.io/travis/martinmethod/lightlayer.svg)](https://travis-ci.org/martinmethod/lightlayer) [![David](https://img.shields.io/david/dev/martinmethod/lightlayer.svg)](https://david-dm.org/martinmethod/lightlayer?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/lightlayer.svg)](https://github.com/martinmethod/lightlayer/releases/latest)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/) [![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://raw.githubusercontent.com/martinmethod/lightlayer/prod/LICENSE-MIT) [![Travis](https://img.shields.io/travis/martinmethod/lightlayer.svg)](https://travis-ci.org/martinmethod/lightlayer) [![David](https://img.shields.io/david/dev/martinmethod/lightlayer.svg)](https://david-dm.org/martinmethod/lightlayer?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/lightlayer.svg)](https://github.com/martinmethod/lightlayer/releases/latest) [![npm](https://img.shields.io/npm/v/lightlayer.svg)](https://www.npmjs.com/package/lightlayer) [![Bower](https://img.shields.io/bower/v/lightlayer.svg)](https://github.com/martinmethod/lightlayer)
 
 ## Description
 
