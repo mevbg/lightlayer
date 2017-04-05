@@ -14,7 +14,7 @@
     "jQuery",
     "plugin"
   ],
-  "version": "2.1.0",
+  "version": "2.2.0",
   "homepage": "http://lightlayer.martinmetodiev.com",
   "authors": [
     {
@@ -40,8 +40,6 @@
     "dist/css/lightlayer.min.css.map"
   ],
   "ignore": [
-    ".travis.yml",
-    "deploy_key.enc",
-    "deploy.sh"
+    ".travis.yml"
   ]
 }
