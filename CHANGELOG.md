@@ -1,3 +1,13 @@
+<a name="2.2.1"></a>
+## 2.2.1 (2017-04-11)
+
+
+### Features
+
+* **Build:** External markup support ([ac6368e](https://github.com/martinmethod/lightlayer/commit/ac6368e))
+
+
+
 <a name="2.2.0"></a>
 # 2.2.0 (2017-04-05)
 
