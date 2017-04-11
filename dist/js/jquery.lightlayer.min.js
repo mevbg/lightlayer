@@ -1,5 +1,5 @@
 /*! 
- jQuery LightLayer Plugin v2.2.0
+ jQuery LightLayer Plugin v2.2.1
  http://lightlayer.martinmetodiev.com
 
  Copyright (c) 2017 Martin Metodiev
