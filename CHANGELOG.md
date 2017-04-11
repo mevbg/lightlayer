@@ -1,3 +1,13 @@
+<a name="2.2.2"></a>
+## 2.2.2 (2017-04-11)
+
+
+### Bug Fixes
+
+* **githubUsername:** Broken object ([bfe18b3](https://github.com/martinmethod/lightlayer/commit/bfe18b3))
+
+
+
 <a name="2.2.1"></a>
 ## 2.2.1 (2017-04-11)
 
