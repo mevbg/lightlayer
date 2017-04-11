@@ -3,7 +3,7 @@ module.exports = function(grunt) {
       assets = grunt.file.exists('../assets.json') ?
                grunt.file.readJSON('../assets.json').path :
                'node_modules/my-jquery-plugins-assets/',
-      config = grunt.file.readJSON(assets + 'configs/config.json'),
+      common = grunt.file.readJSON(assets + 'configs/common.json'),
       pkg = grunt.file.readJSON('package.json'),
       settings = grunt.file.readJSON('configs/settings.json'),
       banner = require(assets + 'configs/banner'),
@@ -13,18 +13,18 @@ module.exports = function(grunt) {
   grunt.pluginData = {
     assets: assets,
     pkg: pkg,
-    config: config,
+    common: common,
     settings: settings,
     prod: prod,
     env: env,
 
     envPath: !prod ?
              'assets/page/' :
-             'http://assets.' + config.domain + '/',
+             'http://assets.' + common.domain + '/',
 
     banner: banner,
 
-    domain: pkg.name.toLowerCase() + '.' + config.domain
+    domain: pkg.name.toLowerCase() + '.' + common.domain
   };
 
   require('time-grunt')(grunt);

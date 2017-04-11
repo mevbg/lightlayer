@@ -4,7 +4,7 @@ var grunt = require('grunt'),
 module.exports = {
   server: {
     options: {
-      port: grunt.pluginData.config.port,
+      port: grunt.pluginData.common.port,
       base: '.',
       livereload: false
     }
