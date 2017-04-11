@@ -1,14 +1,14 @@
 var grunt = require('grunt');
 
 module.exports = {
-  page_styles: {
-    files: ['<%= assets %>dist/css/*.*'],
-    tasks: ['clean:page_styles', 'copy:page_styles']
-  },
-
   page_markup: {
     files: ['<%= assets %>src/markup/**/*.pug'],
     tasks: ['clean:page_markup', 'pug:page']
+  },
+
+  page_styles: {
+    files: ['<%= assets %>dist/css/*.*'],
+    tasks: ['clean:page_styles', 'copy:page_styles']
   },
 
   page_scripts: {
