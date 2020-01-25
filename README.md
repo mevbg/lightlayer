@@ -10,7 +10,7 @@ jQuery LightLayer Plugin is a responsive lightbox & dialog script that fits well
 
 ## Demo
 
-<a href="http://lightlayer.martinmetodiev.com" target="_blank">lightlayer.martinmetodiev.com</a>
+<a href="https://lightlayer.metodiev.dev" target="_blank">lightlayer.metodiev.dev</a>
 
 ## Getting Started
 

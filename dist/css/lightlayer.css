@@ -1,8 +1,8 @@
 /*! 
- jQuery LightLayer Plugin v2.2.2
- http://lightlayer.martinmetodiev.com
+ jQuery LightLayer Plugin v2.3.0
+ https://lightlayer.metodiev.dev
 
- Copyright (c) 2017 Martin Metodiev
+ Copyright (c) 2020 Martin Metodiev
  Licensed under the MIT license.
 */
 
