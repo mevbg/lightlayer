@@ -15,12 +15,12 @@
     "plugin"
   ],
   "version": "2.2.2",
-  "homepage": "http://lightlayer.martinmetodiev.com",
+  "homepage": "https://lightlayer.metodiev.dev",
   "authors": [
     {
       "name": "Martin Metodiev",
       "email": "metodiev.martin@gmail.com",
-      "url": "http://martinmetodiev.com"
+      "url": "https://metodiev.dev"
     }
   ],
   "repository": {
