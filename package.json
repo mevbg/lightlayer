@@ -73,7 +73,7 @@
   "main": "dist/js/jquery.lightlayer.min.js",
   "directories": {},
   "engines": {
-    "node": ">= 0.8.0"
+    "node": "10.x"
   },
   "scripts": {
     "start": "npm install && grunt clean:all && grunt build"
