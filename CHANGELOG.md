@@ -9,7 +9,7 @@
 
 ### Bug Fixes
 
-* **githubUsername:** Broken object ([bfe18b3](https://github.com/martinmethod/lightlayer/commit/bfe18b3))
+* **githubUsername:** Broken object ([bfe18b3](https://github.com/mevbg/lightlayer/commit/bfe18b3))
 
 
 
@@ -19,7 +19,7 @@
 
 ### Features
 
-* **Build:** External markup support ([ac6368e](https://github.com/martinmethod/lightlayer/commit/ac6368e))
+* **Build:** External markup support ([ac6368e](https://github.com/mevbg/lightlayer/commit/ac6368e))
 
 
 
@@ -29,12 +29,12 @@
 
 ### Bug Fixes
 
-* **Google Analytics:** Missed ID ([e87fd5a](https://github.com/martinmethod/lightlayer/commit/e87fd5a))
+* **Google Analytics:** Missed ID ([e87fd5a](https://github.com/mevbg/lightlayer/commit/e87fd5a))
 
 
 ### Features
 
-* **Deploy:** npm, GitHub Pages & GitHub Releases ([b093271](https://github.com/martinmethod/lightlayer/commit/b093271))
+* **Deploy:** npm, GitHub Pages & GitHub Releases ([b093271](https://github.com/mevbg/lightlayer/commit/b093271))
 
 
 
@@ -44,7 +44,7 @@
 
 ### Features
 
-* **Building system:** Refactored building system ([d3820b5](https://github.com/martinmethod/lightlayer/commit/d3820b5))
+* **Building system:** Refactored building system ([d3820b5](https://github.com/mevbg/lightlayer/commit/d3820b5))
 
 
 

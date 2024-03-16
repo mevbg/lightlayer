@@ -8,13 +8,13 @@ jQuery LightLayer Plugin is a responsive lightbox & dialog script that fits well
 
 ## Demo
 
-<a href="https://lightlayer.metodiev.dev" target="_blank">lightlayer.metodiev.dev</a>
+<a href="https://lightlayer.mev.bg" target="_blank">lightlayer.mev.bg</a>
 
 ## Getting Started
 
 You can [download the plugin as an archive][zip].
 
-[zip]: https://github.com/martinmethod/lightlayer/zipball/prod
+[zip]: https://github.com/mevbg/lightlayer/zipball/prod
 
 Or you can grab it by using **npm**:
 
@@ -307,4 +307,4 @@ $.lightlayer({
 
 Copyright © 2017 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
 
-[licence]: https://raw.github.com/martinmethod/lightlayer/prod/LICENSE-MIT
+[licence]: https://raw.github.com/mevbg/lightlayer/prod/LICENSE-MIT

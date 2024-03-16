@@ -15,17 +15,17 @@
     "plugin"
   ],
   "version": "2.3.0",
-  "homepage": "https://lightlayer.metodiev.dev",
+  "homepage": "https://lightlayer.mev.bg",
   "authors": [
     {
       "name": "Martin Metodiev",
-      "email": "metodiev.martin@gmail.com",
-      "url": "https://metodiev.dev"
+      "email": "martin@mev.bg",
+      "url": "https://mev.bg"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/martinmethod/lightlayer.git"
+    "url": "git://github.com/mevbg/lightlayer.git"
   },
   "license": "MIT",
   "dependencies": {
