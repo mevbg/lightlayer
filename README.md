@@ -2,8 +2,6 @@
 
 A simple responsive lightbox & dialog script.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://raw.githubusercontent.com/martinmethod/lightlayer/prod/LICENSE-MIT) [![Travis](https://img.shields.io/travis/martinmethod/lightlayer.svg)](https://travis-ci.org/martinmethod/lightlayer) [![David](https://img.shields.io/david/dev/martinmethod/lightlayer.svg)](https://david-dm.org/martinmethod/lightlayer?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/lightlayer.svg)](https://github.com/martinmethod/lightlayer/releases/latest) [![npm](https://img.shields.io/npm/v/lightlayer.svg)](https://www.npmjs.com/package/lightlayer) [![Bower](https://img.shields.io/bower/v/lightlayer.svg)](https://github.com/martinmethod/lightlayer)
-
 ## Description
 
 jQuery LightLayer Plugin is a responsive lightbox & dialog script that fits well with any project on any screen. It provides great experience for users and it’s really quite simple to use. jQuery LightLayer Plugin gives control over many settings. Things like background color, background opacity, box position, open/close transitions and different abilities for closing are part of the options that users can manipulate by themselves. And no matter the content jQuery LightLayer Plugin will always have a proper behavior. It works fine with external websites, video players, maps. And if there is a long content jQuery LightLayer Plugin will use the native scrollbar without scrolling the page behind.
