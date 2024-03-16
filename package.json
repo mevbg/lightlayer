@@ -64,7 +64,7 @@
     "grunt-shell": "^3.0.1",
     "http-rewrite-middleware": "^0.1.6",
     "lib-sass-data-uri": "0.0.4",
-    "load-grunt-config": "^3.0.1",
+    "load-grunt-config": "^3.0.2",
     "load-grunt-tasks": "^5.1.0",
     "my-jquery-plugins-assets": " git://github.com/martinmethod/my-jquery-plugins-assets.git#v1.7.1",
     "node-sass-globbing": "0.0.23",
