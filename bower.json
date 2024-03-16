@@ -38,8 +38,5 @@
     "dist/css/lightlayer.css",
     "dist/css/lightlayer.min.css",
     "dist/css/lightlayer.min.css.map"
-  ],
-  "ignore": [
-    ".travis.yml"
   ]
 }
